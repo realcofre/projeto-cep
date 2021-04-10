@@ -1,0 +1,23 @@
+{
+    "name": "renatoalexandre/projeto-cep",
+    "description": "Busca de CEP onine implementado no curso de desenvolvimento avançado em PHP - Digital Innovation One",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renato Alexandre",
+            "email": "renatoacf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "RenatoAlexandre\\ProjetoCEP\\": "src/"
+        }
+    }
+}
